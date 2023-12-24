@@ -12,15 +12,15 @@ How to build and run:
 
 In project directory, move Eigen library folder into ./previz/include
 
+Make:
 cd previz
 make && ./previz
 
 Note: to see a subgroup of frames, you can type ./previz start_seq end_seq
 
-This will generate the output frames in ./frames
-Now, navigate to the frames folder via
+This will generate the output frames in ./previz/frames
 
-cd frames
+To generate movie, navigate into the frames folder: ./previz/frames
 
-Run
+Run:
 ./movieMaker
