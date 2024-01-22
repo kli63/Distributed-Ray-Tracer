@@ -24,6 +24,3 @@ To generate movie, navigate into the frames folder: ./previz/frames
 
 Run:
 ./movieMaker
-
-
-Built in cooperation with Ryan Jin (https://github.com/jinryan)
