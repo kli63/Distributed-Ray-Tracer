@@ -504,9 +504,8 @@ int main(int argc, char ** argv) {
   }
 
 
-  readPPM("marble3.ppm", imageXRes, imageYRes, imageValues);
-  readPPM("Painting.ppm", imageXRes2, imageYRes2, imageValues2);
-
+  readPPM("../assets/textures/marble.ppm", imageXRes, imageYRes, imageValues);
+  readPPM("../assets/textures/painting.ppm", imageXRes2, imageYRes2, imageValues2);
 
 
   Light l0(VEC3(10.0, 10.0, 5.0), VEC3(1.0, 1.0, 1.0) * 0.5);
@@ -531,8 +530,8 @@ int main(int argc, char ** argv) {
   exSph5.exponentialCoef = 0.0008;
   exSph6.exponentialCoef = 0.0004;
 
-  string skeletonFilename("12.asf");
-  string motionFilename("clipped.amc");
+  string skeletonFilename("../assets/mocap/12.asf");
+  string motionFilename("../assets/mocap/clipped.amc");
   //string skeletonFilename("02.asf");
   //string motionFilename("02_05.amc");
 
