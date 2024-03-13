@@ -74,7 +74,7 @@ class Box {
             // Shirley Marschner Convention
             if (n == 0) return x;
             if (n == 1) return y;
-            if (n == 2) return z;
+            return z;
         }
 
         bool hit(const Ray& r, Interval& r_interval) const {

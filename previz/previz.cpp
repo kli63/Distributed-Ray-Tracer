@@ -8,9 +8,9 @@
 //
 //   http://graphics.cs.cmu.edu/software/mocapPlayer.zip
 //
-// where it is credited to James McCann (Adobe), Jernej Barbic (USC),
-// and Yili Zhao (USC). There are also comments in it that suggest
-// and Alla Safonova (UPenn) and Kiran Bhat (ILM) also had a hand in writing it.
+// Initial credits to James McCann (Adobe), Jernej Barbic (USC),
+// and Yili Zhao (USC), and credits to Alla Safonova (UPenn) and Kiran Bhat (ILM) for 
+// subsequent contributions
 //
 //////////////////////////////////////////////////////////////////////////////////
 #include <cstdio>
@@ -124,7 +124,7 @@ void readPPM(const string & filename, int & xRes, int & yRes, float * & values) 
 
   // get the dimensions
   unsigned char newline;
-  fscanf(fp, "P6\n%d %d\n255%c", & xRes, & yRes, & newline);
+  size_t scanned = fscanf(fp, "P6\n%d %d\n255%c", & xRes, & yRes, & newline);
   if (newline != '\n') {
     cout << " The header of " << filename.c_str() << " may be improperly formatted." << endl;
     cout << " The program will continue, but you may want to check your input. " << endl;
@@ -133,7 +133,7 @@ void readPPM(const string & filename, int & xRes, int & yRes, float * & values) 
 
   // grab the pixel values
   unsigned char * pixels = new unsigned char[3 * totalCells];
-  fread(pixels, 1, totalCells * 3, fp);
+  size_t read = fread(pixels, 1, totalCells * 3, fp);
 
   // copy to a nicer data type
   values = new float[3 * totalCells];
