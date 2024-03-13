@@ -2,7 +2,7 @@
 CC         = g++
 CFLAGS     = -c -O3 -MMD -MP -g
 LDFLAGS    = 
-INCLUDES   = -Iinclude 
+INCLUDES   = -Iinclude -Iinclude/rendering -Iinclude/mocap
 EXECUTABLE = previz
 
 # Source and object files:

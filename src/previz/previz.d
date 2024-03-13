@@ -1,4 +1,4 @@
-previz.o: previz.cpp include/SETTINGS.h include/Eigen/Dense \
+previz.o: previz.cpp include/rendering/SETTINGS.h include/Eigen/Dense \
  include/Eigen/Core include/Eigen/src/Core/util/DisableStupidWarnings.h \
  include/Eigen/src/Core/util/Macros.h \
  include/Eigen/src/Core/util/MKL_support.h \
@@ -211,14 +211,20 @@ previz.o: previz.cpp include/SETTINGS.h include/Eigen/Dense \
  include/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
  include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
  include/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
- include/Eigen/Geometry skeleton.h posture.h bonevector.h types.h \
- displaySkeleton.h motion.h include/DEFINITIONS.h include/SETTINGS.h \
- include/WORLD.h include/DEFINITIONS.h include/PRIMITIVE.h include/RAY.h \
- include/CAMERA.h include/WORLD.h include/MATERIALS.h include/PERLIN.h \
- include/SPHERE.h include/TRIANGLES.h include/CYLINDER.h include/BVH.h \
- include/TEXTURE_TRIANGLE.h include/TRIANGLES.h \
- include/TEXTURE_TRIANGLE2.h include/PERLIN.h
-include/SETTINGS.h:
+ include/Eigen/Geometry include/mocap/skeleton.h include/mocap/posture.h \
+ include/mocap/bonevector.h include/mocap/types.h \
+ include/mocap/displaySkeleton.h include/mocap/skeleton.h \
+ include/mocap/motion.h include/mocap/motion.h \
+ include/rendering/DEFINITIONS.h include/rendering/SETTINGS.h \
+ include/rendering/WORLD.h include/rendering/DEFINITIONS.h \
+ include/rendering/PRIMITIVE.h include/rendering/RAY.h \
+ include/rendering/CAMERA.h include/rendering/WORLD.h \
+ include/rendering/MATERIALS.h include/rendering/PERLIN.h \
+ include/rendering/SPHERE.h include/rendering/TRIANGLES.h \
+ include/rendering/CYLINDER.h include/rendering/BVH.h \
+ include/rendering/TEXTURE_TRIANGLE.h include/rendering/TRIANGLES.h \
+ include/rendering/TEXTURE_TRIANGLE2.h include/rendering/PERLIN.h
+include/rendering/SETTINGS.h:
 include/Eigen/Dense:
 include/Eigen/Core:
 include/Eigen/src/Core/util/DisableStupidWarnings.h:
@@ -470,27 +476,29 @@ include/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
 include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
 include/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
 include/Eigen/Geometry:
-skeleton.h:
-posture.h:
-bonevector.h:
-types.h:
-displaySkeleton.h:
-motion.h:
-include/DEFINITIONS.h:
-include/SETTINGS.h:
-include/WORLD.h:
-include/DEFINITIONS.h:
-include/PRIMITIVE.h:
-include/RAY.h:
-include/CAMERA.h:
-include/WORLD.h:
-include/MATERIALS.h:
-include/PERLIN.h:
-include/SPHERE.h:
-include/TRIANGLES.h:
-include/CYLINDER.h:
-include/BVH.h:
-include/TEXTURE_TRIANGLE.h:
-include/TRIANGLES.h:
-include/TEXTURE_TRIANGLE2.h:
-include/PERLIN.h:
+include/mocap/skeleton.h:
+include/mocap/posture.h:
+include/mocap/bonevector.h:
+include/mocap/types.h:
+include/mocap/displaySkeleton.h:
+include/mocap/skeleton.h:
+include/mocap/motion.h:
+include/mocap/motion.h:
+include/rendering/DEFINITIONS.h:
+include/rendering/SETTINGS.h:
+include/rendering/WORLD.h:
+include/rendering/DEFINITIONS.h:
+include/rendering/PRIMITIVE.h:
+include/rendering/RAY.h:
+include/rendering/CAMERA.h:
+include/rendering/WORLD.h:
+include/rendering/MATERIALS.h:
+include/rendering/PERLIN.h:
+include/rendering/SPHERE.h:
+include/rendering/TRIANGLES.h:
+include/rendering/CYLINDER.h:
+include/rendering/BVH.h:
+include/rendering/TEXTURE_TRIANGLE.h:
+include/rendering/TRIANGLES.h:
+include/rendering/TEXTURE_TRIANGLE2.h:
+include/rendering/PERLIN.h:

@@ -1,4 +1,4 @@
-skeleton.o: skeleton.cpp include/SETTINGS.h include/Eigen/Dense \
+skeleton.o: skeleton.cpp include/rendering/SETTINGS.h include/Eigen/Dense \
  include/Eigen/Core include/Eigen/src/Core/util/DisableStupidWarnings.h \
  include/Eigen/src/Core/util/Macros.h \
  include/Eigen/src/Core/util/MKL_support.h \
@@ -211,8 +211,9 @@ skeleton.o: skeleton.cpp include/SETTINGS.h include/Eigen/Dense \
  include/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
  include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
  include/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
- include/Eigen/Geometry skeleton.h posture.h bonevector.h types.h
-include/SETTINGS.h:
+ include/Eigen/Geometry include/mocap/skeleton.h include/mocap/posture.h \
+ include/mocap/bonevector.h include/mocap/types.h
+include/rendering/SETTINGS.h:
 include/Eigen/Dense:
 include/Eigen/Core:
 include/Eigen/src/Core/util/DisableStupidWarnings.h:
@@ -464,7 +465,7 @@ include/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h:
 include/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h:
 include/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h:
 include/Eigen/Geometry:
-skeleton.h:
-posture.h:
-bonevector.h:
-types.h:
+include/mocap/skeleton.h:
+include/mocap/posture.h:
+include/mocap/bonevector.h:
+include/mocap/types.h:
