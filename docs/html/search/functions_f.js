@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['r_572',['r',['../classCylinder.html#a01d9bc57f4afa10fcfeefc0fde2efc7c',1,'Cylinder']]],
+  ['radius_573',['radius',['../classSphere.html#a4b363219a3ea099c4d6e59959dcd04ab',1,'Sphere']]],
+  ['random_5fdouble_574',['random_double',['../DEFINITIONS_8h.html#a98b7c682bb6ace85fb747cd2f14db72b',1,'random_double():&#160;DEFINITIONS.h'],['../DEFINITIONS_8h.html#ae8857dcf75600277c0cbc79a687090ab',1,'random_double(double min, double max):&#160;DEFINITIONS.h']]],
+  ['random_5fin_5funit_5fdisk_575',['random_in_unit_disk',['../DEFINITIONS_8h.html#a593affad170d9a275f655a1a408f9826',1,'DEFINITIONS.h']]],
+  ['ray_576',['Ray',['../classRay.html#a2e3d2c29f2df4ab3da10da79d4acb852',1,'Ray::Ray()'],['../classRay.html#a99be4f04bbcf3a9bd605513262f378b7',1,'Ray::Ray(const POINT3 &amp;origin, const VEC3 &amp;direction)']]],
+  ['raycolor_577',['rayColor',['../classCamera.html#a33afa7699062d83d3343b535976c56cd',1,'Camera']]],
+  ['readamcfile_578',['readAMCfile',['../classMotion.html#a5b43fe24739df1e945477a99e156dcf1',1,'Motion']]],
+  ['readasffile_579',['readASFfile',['../classSkeleton.html#afe9680eabdc2d852b060bd536d7bf3c2',1,'Skeleton']]],
+  ['readppm_580',['readPPM',['../movieMaker_8cpp.html#aa9f5ac524bdf5bfc2e84767c49fc12d3',1,'readPPM(const char *filename, unsigned char *&amp;pixels, int &amp;width, int &amp;height):&#160;movieMaker.cpp'],['../previz_8cpp.html#a8f8056c18ba9e421794081463bfc5268',1,'readPPM(const string &amp;filename, int &amp;xRes, int &amp;yRes, float *&amp;values):&#160;previz.cpp']]],
+  ['reflect_581',['reflect',['../RAY_8h.html#a77e3783ef98e5f3a14e59fe1b128c75f',1,'RAY.h']]],
+  ['refract_582',['refract',['../RAY_8h.html#a1c66ba7a8bc35d42d327db18fea3e737',1,'RAY.h']]],
+  ['refract1_583',['refract1',['../RAY_8h.html#abe35ea366750f075d057b892ef8606d1',1,'RAY.h']]],
+  ['removecr_584',['removeCR',['../classSkeleton.html#ac22dc05ed861dd234e6ea2a2e0f646e0',1,'Skeleton']]],
+  ['render_585',['render',['../classCamera.html#aa8993d2501517e78bc1ec0940013c3b6',1,'Camera']]],
+  ['renderframes_586',['renderFrames',['../previz_8cpp.html#a79a4b3ac71ab22aa0ff2bf76bb0077dc',1,'previz.cpp']]],
+  ['reset_587',['Reset',['../classDisplaySkeleton.html#af5ad13a3b896c3171024eac9f164a3c0',1,'DisplaySkeleton']]],
+  ['rotatebonedirtolocalcoordsystem_588',['RotateBoneDirToLocalCoordSystem',['../classSkeleton.html#a4e3e4d76086dbc2452d37d7dab164733',1,'Skeleton']]],
+  ['rotatey_589',['rotateY',['../DEFINITIONS_8h.html#abcb9b243afc3738eb2746b67ceccfd46',1,'DEFINITIONS.h']]],
+  ['rotations_590',['rotations',['../classDisplaySkeleton.html#a4b87bcfb234446a3a247abdb28324333',1,'DisplaySkeleton']]],
+  ['rotationx_591',['RotationX',['../skeleton_8cpp.html#ab1d4d3831ab0b047240c052987d12f46',1,'skeleton.cpp']]],
+  ['rotationy_592',['RotationY',['../skeleton_8cpp.html#a99269cc5ef9846ac78a96e87127f2ab5',1,'skeleton.cpp']]],
+  ['rotationz_593',['RotationZ',['../skeleton_8cpp.html#a877ef21776451fce021d60c108a6d780',1,'skeleton.cpp']]]
+];

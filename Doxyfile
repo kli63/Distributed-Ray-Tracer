@@ -1,0 +1,29 @@
+# Project settings
+PROJECT_NAME           = "Distribtued Ray Tracer"
+PROJECT_BRIEF         = "A custom Distributed Ray Tracer"
+
+# Input settings
+INPUT                 = src 
+RECURSIVE             = YES
+FILE_PATTERNS         = *.h *.cpp *.hpp
+EXCLUDE_PATTERNS      = */Eigen/* */third_party/* */tests/* */build/* */docs/* */.git
+
+# Output settings
+OUTPUT_DIRECTORY      = docs
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+
+# Extract everything
+EXTRACT_ALL           = YES
+EXTRACT_PRIVATE       = YES
+EXTRACT_STATIC        = YES
+
+# Source browsing
+SOURCE_BROWSER        = YES
+INLINE_SOURCES        = YES
+
+# Diagrams and graphs
+HAVE_DOT              = YES
+CLASS_DIAGRAMS        = YES
+COLLABORATION_GRAPH   = YES
+UML_LOOK             = YES
